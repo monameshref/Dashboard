@@ -87,9 +87,7 @@ const allMenu = document.querySelectorAll("main section .data .card .menu");
 
 allMenu.forEach((item) => {
   const icon = item.querySelector("main section .data .card .dots");
-  const menuLink = item.querySelector(
-    "main section .data .card .dropdown-dots"
-  );
+  const menuLink = item.querySelector("main section .data .card .dropdown-dots");
 
   icon.addEventListener("click", function () {
     menuLink.classList.toggle("d-none");
